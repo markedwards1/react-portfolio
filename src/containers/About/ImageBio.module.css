@@ -1,0 +1,15 @@
+.position {
+    display: grid;
+    place-items: center;
+}
+
+.pancake {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.box {
+    flex: 1 1 150px; 
+    margin: 5px;
+}
