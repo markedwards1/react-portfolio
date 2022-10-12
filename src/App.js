@@ -1,5 +1,5 @@
 // import logo from './logo.svg';
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createHashRouter, RouterProvider } from "react-router-dom";
 import About from "./pages/About";
 import Test from "./pages/Test";
 import Portfolio from "./pages/Portfolio";
@@ -10,7 +10,7 @@ import Resume from "./pages/Resume";
 
 
 function App() {
-  const router = createBrowserRouter([
+  const router = createHashRouter([
     //this is where we add out endpoints
     {
       path: "/",
